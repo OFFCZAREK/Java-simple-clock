@@ -39,11 +39,11 @@ public class Main extends JFrame
     
   public String downloadTime()
   {
-      GregorianCalendar kalendar = new GregorianCalendar();
+      GregorianCalendar calendar = new GregorianCalendar();
          
-         String h = ""+kalendar.get(Calendar.HOUR_OF_DAY);
-         String min = ""+kalendar.get(Calendar.MINUTE);
-         String sec = ""+kalendar.get(Calendar.SECOND);
+         String h = ""+calendar.get(Calendar.HOUR_OF_DAY);
+         String min = ""+calendar.get(Calendar.MINUTE);
+         String sec = ""+calendar.get(Calendar.SECOND);
          
          if(Integer.parseInt(h) <10)
              h= "0"+h;
